@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <form action="" id="mainForm" name="frmMain">
+        <div class="formHolder">
+            <h1>Meme Generator</h1>
+                <div class = "inputItems">
+                    <div class="memeInfo"><label for="textURL">Enter URL for the image : </label></div>
+                    <div class="memeInfo"><input type="text" id="textURL" placeholder="https://www.domain.com/images/image.jpg" ></div>
+                    <div class="memeInfo"><label for="textHeader">Enter text for the top of the Meme : </label></div>
+                    <div class="memeInfo"><input type="text" id="textHeader" placeholder="This goes at the top" ></div>
+                    <div class="memeInfo"><label for="textFooter">Enter text for the bottom of the Meme : </label></div>
+                    <div class="memeInfo"><input type="text" id="textFooter" placeholder="This goes at the bottom" ></div>
+                    <div class="memeInfo" id="buttonSection"><button id="btnSubmit">Create Meme</button></div>
+                </div>
+        </div>
+        <div class="memes">
+
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

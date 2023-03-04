@@ -1,0 +1,66 @@
+:root{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkolivegreen;
+}
+h1{
+    text-align: center;
+    
+}
+input[type=text]{
+    width: 30vw;
+    height: 4vh;
+    border: 2px solid darkolivegreen;   
+    
+}
+.formHolder{
+    display: flex;
+    width : fit-content;
+    flex-direction: column;
+    margin: auto;
+    top: 0px;
+    text-align: left;
+    font-size: 2rem;
+}
+.memeInfo{
+    padding: .3rem;
+}
+.inputItems{
+    border: 2px solid darkolivegreen;
+}
+
+.memeHolder{
+    border: 2px solid red;
+    position: absolute;
+    left: 0px;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.newImages{
+    width: 40rem;
+}
+.memeHeader{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+}
+.footerMeme{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80vh;
+    color: aliceblue;
+}
+#buttonSection{
+    text-align: center;
+}
+.deleteButtons{
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+.memes{
+    border: 3px solid blue;
+}

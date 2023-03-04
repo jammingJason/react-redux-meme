@@ -1,0 +1,90 @@
+:root{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkolivegreen;
+}
+body{
+    width: 99%;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+input[type=text]{
+    width: 30vw;
+    height: 4vh;
+    border: 2px solid darkolivegreen;   
+    
+}
+.formHolder{
+    display: flex;
+    position: relative;
+    width : fit-content;
+    flex-direction: column;
+    margin: auto;
+    top: 0px;
+    text-align: left;
+    font-size: 2rem;
+}
+.memeInfo{
+    padding: .3rem;
+}
+.inputItems{
+    border: 2px solid darkolivegreen;
+}
+
+.memeHolder{
+    border: 2px solid darkolivegreen;
+    position: relative;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.newImages{
+    /* width: 25rem; */
+    height: 25rem;
+}
+.memeHeader{
+    position: absolute;
+    top: 3vh;
+    text-align: center;
+    background-color: darkolivegreen;
+    opacity: 75%;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.footerMeme{
+    position: relative;
+    /* bottom: 2%; */
+    margin: auto;
+    top: -5vh;
+    text-align: center;
+    background-color: darkolivegreen;
+    opacity: 75%;
+    color: aliceblue;
+    font-size: 2rem;
+}
+#buttonSection{
+    text-align: center; 
+}
+#btnSubmit{
+    background-color: darkolivegreen;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.deleteButtons{
+    margin-top: 2rem;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.memes{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+    
+    
+}
